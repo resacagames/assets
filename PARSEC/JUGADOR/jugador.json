@@ -32,7 +32,7 @@
     "duration": 100
    },
    "jugador 4.png": {
-    "frame": { "x": 128, "y": 0, "w": 32, "h": 16 },
+    "frame": { "x": 0, "y": 16, "w": 32, "h": 16 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
@@ -40,7 +40,7 @@
     "duration": 100
    },
    "jugador 5.png": {
-    "frame": { "x": 160, "y": 0, "w": 32, "h": 16 },
+    "frame": { "x": 32, "y": 16, "w": 32, "h": 16 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
@@ -48,7 +48,7 @@
     "duration": 100
    },
    "jugador 6.png": {
-    "frame": { "x": 192, "y": 0, "w": 32, "h": 16 },
+    "frame": { "x": 64, "y": 16, "w": 32, "h": 16 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
@@ -56,7 +56,7 @@
     "duration": 100
    },
    "jugador 7.png": {
-    "frame": { "x": 224, "y": 0, "w": 32, "h": 16 },
+    "frame": { "x": 96, "y": 16, "w": 32, "h": 16 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
@@ -64,7 +64,31 @@
     "duration": 100
    },
    "jugador 8.png": {
-    "frame": { "x": 256, "y": 0, "w": 32, "h": 16 },
+    "frame": { "x": 0, "y": 32, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "jugador 9.png": {
+    "frame": { "x": 32, "y": 32, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "jugador 10.png": {
+    "frame": { "x": 64, "y": 32, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "jugador 11.png": {
+    "frame": { "x": 96, "y": 32, "w": 32, "h": 16 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
@@ -77,10 +101,10 @@
   "version": "1.2-beta11",
   "image": "C:\\Users\\damia\\Desktop\\parsec\\jugador\\jugador-sheet.png",
   "format": "RGBA8888",
-  "size": { "w": 288, "h": 16 },
+  "size": { "w": 128, "h": 48 },
   "scale": "1",
   "frameTags": [
-   { "name": "Loop", "from": 5, "to": 8, "direction": "forward" }
+   { "name": "Loop", "from": 8, "to": 11, "direction": "forward" }
   ],
   "layers": [
    { "name": "energia", "opacity": 255, "blendMode": "normal" },
