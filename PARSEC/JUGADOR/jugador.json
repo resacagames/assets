@@ -38,6 +38,38 @@
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
     "sourceSize": { "w": 32, "h": 16 },
     "duration": 100
+   },
+   "jugador 5.png": {
+    "frame": { "x": 160, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "jugador 6.png": {
+    "frame": { "x": 192, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "jugador 7.png": {
+    "frame": { "x": 224, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "jugador 8.png": {
+    "frame": { "x": 256, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
    }
  },
  "meta": {
@@ -45,12 +77,12 @@
   "version": "1.2-beta11",
   "image": "C:\\Users\\damia\\Desktop\\parsec\\jugador\\jugador-sheet.png",
   "format": "RGBA8888",
-  "size": { "w": 160, "h": 16 },
+  "size": { "w": 288, "h": 16 },
   "scale": "1",
   "frameTags": [
+   { "name": "Loop", "from": 5, "to": 8, "direction": "forward" }
   ],
   "layers": [
-   { "name": "fondo", "opacity": 255, "blendMode": "normal" },
    { "name": "energia", "opacity": 255, "blendMode": "normal" },
    { "name": "ondulante", "opacity": 255, "blendMode": "normal" },
    { "name": "brillo", "opacity": 255, "blendMode": "normal" }
